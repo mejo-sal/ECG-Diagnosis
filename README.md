@@ -10,12 +10,12 @@ The model categorizes ECG signals into four main cardiac conditions:
 
 2-History of Myocardial Infarction
 
-Abnormal Heartbeat
+3-Abnormal Heartbeat
 
-Normal ECGs
+4-Normal ECGs
 
 Dataset Link:
-For reference, here is the link to the dataset used in this project:
+here is the link to the dataset used in this project:
 Dataset Link
 https://drive.google.com/drive/folders/1RK1rpDuP7KwztpvcTZTo2vTgTGDD4jpm?usp=sharing
 
