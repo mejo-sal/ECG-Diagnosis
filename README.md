@@ -6,9 +6,12 @@ This project focuses on diagnosing heart wave patterns using image classificatio
 
 The model categorizes ECG signals into four main cardiac conditions:
 
-Myocardial Infarction
-History of Myocardial Infarction
+1-Myocardial Infarction
+
+2-History of Myocardial Infarction
+
 Abnormal Heartbeat
+
 Normal ECGs
 
 Dataset Link:
