@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECG Diagnosis
+   
+
+    </title>
+    <link rel="icon" href="img/logo.jpg"  >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="title">
+            <h1>ECG Diagnosis</h1>
+        </div>
+        <div class="about-link">
+            <a href="#">About Us</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="left-section">
+
+            <div class="text-content">
+                <h2>welcome to Electrocardiography diagnosis</h2>
+                <p>Kindly, Upload your image</p>
+                
+            </div>
+
+            <div class="image-container" id="imageContainer">
+             
+            </div>
+
+            <input type="file" id="upload" accept="image/*" style="display: none;">
+            <button type="button" id="uploadBtn" onclick="handleUpload()">Upload Image</button>
+
+        </section>
+
+        <section class="right-section">
+            <div class="right-text">
+                <div>
+                    <h2>Diagnosis</h2>
+                    <div class="diagnosis-section" id="diagnosisSection">
+                        <p>Please upload your image to continue</p>
+                    </div>
+                </div>
+
+
+                <hr /> 
+                <div>
+                    <h2>Recommendations</h2>
+                    <div class="recommendations-section"><p>upload the ECG please</p></div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
